@@ -1,6 +1,8 @@
 # Frontend Mentor - Launch countdown timer
 
-![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Launch countdown timer coding challenge](./public/design/desktop-preview.jpg)
+
+- Link despliegue: https://launcher-countdown-timer.vercel.app/
 
 ## Welcome! 👋
 
