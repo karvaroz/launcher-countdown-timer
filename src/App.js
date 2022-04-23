@@ -1,3 +1,5 @@
+import CountDown from "./components/CountDown";
+
 function App() {
   return (
     <>
@@ -6,24 +8,7 @@ function App() {
           <img src="./images/bg-stars.svg" alt="" />
         </div>
         <h1>We're launching soon</h1>
-        <div className="countdown">
-          <div>
-            <p>00</p>
-            <h3>Days</h3>
-          </div>
-          <div>
-            <p>00</p>
-            <h3>Hours</h3>
-          </div>
-          <div>
-            <p>00</p>
-            <h3>Minutes</h3>
-          </div>
-          <div>
-            <p>00</p>
-            <h3>Seconds</h3>
-          </div>
-        </div>
+        <CountDown timeStamp={1659983662000} />
         <div className="socials">
           <ul>
             <li>
@@ -41,18 +26,17 @@ function App() {
           <img src="./images/pattern-hills.svg" alt="" />
         </div>
       </div>
-
-      <div class="attribution">
+      <div className="attribution">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Frontend Mentor
         </a>
         . Coded by{" "}
-        <a href="https://github.com/karvaroz" rel="noreferrer">
+        <a href="https://github.com/karvaroz" rel="noopener noreferrer">
           Karvaroz
         </a>
         .

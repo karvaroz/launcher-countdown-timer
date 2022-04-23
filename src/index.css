@@ -59,6 +59,7 @@ body {
   border-radius: 5px;
   color: hsl(345, 95%, 68%);
   font-size: 46px;
+  width: 4ch;
 }
 
 .countdown h3 {
