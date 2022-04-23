@@ -9,10 +9,8 @@ const CountDown = ({ timeStamp }) => {
     minutes: "00",
     seconds: "00",
   };
-
   // PASO EL ESTADO INICIAL
   const [timeLeft, setTimeLeft] = useState(initialState);
-
   // SE CREA UN INTERVALO QUE SE EJECUTA CADA SEGUNDO
   useEffect(() => {
     const interval = setInterval(() => {
